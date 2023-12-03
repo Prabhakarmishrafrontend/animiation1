@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+#box{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    background: saddlebrown;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+@keyframes move {
+    from{
+        left: 0;
+    }
+    to{
+        left: 60%;
+    }
+    
+}
